@@ -1,0 +1,15 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+		"http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+  <field name="soluong">
+      <field-validator type="required">
+          <message>Bạn phải nhập số lượng</message>
+      </field-validator>
+      <field-validator type="int">
+          <param name="min">1</param>
+          <param name="max">10</param>
+          <message>Số lượng phải nằm trong ${min} và ${max}, hiện tại là ${soluong}.</message>
+      </field-validator>
+  </field>  
+  
+</validators>

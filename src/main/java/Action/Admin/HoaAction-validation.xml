@@ -1,0 +1,16 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+		"http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+  <field name="gia">
+      <field-validator type="required">
+          <message>Bạn phải nhập giá</message>
+      </field-validator>      
+  </field>  
+  
+  <field name="tenhoa">
+      <field-validator type="required">
+          <message>Bạn phải nhập tên hoa</message>
+      </field-validator>      
+  </field>
+  
+</validators>

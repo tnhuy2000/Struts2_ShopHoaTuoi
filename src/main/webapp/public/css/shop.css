@@ -1,0 +1,58 @@
+:root {
+	--font-family-sans-serif: "Lora", sans-serif;
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+	margin: 0;
+	font-family: "Lora", sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #212529;
+	text-align: left;
+	background-color: #f8fafc;
+}
+	
+      footer {
+      background-color: #ffeee6;
+      color: #ff0000;
+     padding: 32px;
+  }
+  footer a:hover {
+      color: #ff8040;
+      text-decoration: none;
+  } 
+
+	
+	body{
+		background-color: white;
+	}
+	.banner{
+      max-width: 100%;
+      margin: 0px 0px;
+      padding: 0px;
+    }
+	
+	.zoom-anh img{display:block;transition: all .3s ease;}
+	.zoom-anh img:hover{transform: scale(1.25);}
+	.zoom-anh p{display:block;overflow: hidden;}
+	
+	#card .card:hover{
+        border-color: #FF6633;
+        transform:scale(1.015);
+    }
+    .form-group .control-label:after {
+	  content:"*";color:red;
+	}
+   a:hover{
+    color: red;
+    text-decoration: none;
+	}
+	
+	h2{
+ 
+  text-shadow: 4px 4px 4px #aaa;
+	}
+
+	
